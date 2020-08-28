@@ -1,0 +1,22 @@
+1.Home page:
+    Menus and buttons
+2.Login page:
+    1.username (student/organization)
+    2.password 
+3.signup Page:
+    organization:
+        1.Organization Name:
+        2.Organization Website:
+        3.username 
+        4.Password
+    Student:
+        1.Name
+        2.Id
+        3.Organization
+4.After login (Dashboard)
+    Scheduled Test details
+    
+5.
+
+
+
