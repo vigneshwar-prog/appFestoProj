@@ -2,13 +2,16 @@
     Menus and buttons
 2.Login page:
     1.username (student/organization)
-    2.password 
+    2.password
+    3.Sign in button
 3.signup Page:
     organization:
         1.Organization Name:
         2.Organization Website:
         3.username 
         4.Password
+        5.confirm password
+        6.Old user click here to sign in
     Student:
         1.Name
         2.Id
