@@ -33,15 +33,22 @@ height: 100%;
 	background-color: #666;
 }
 </style>
+<script type="text/javascript" src="brython.js"></script>
+<script type="text/javascript" src="brython_stdlib.js"></script>
 </head>
  
-<body>
+<body onload="brython()">
      <center><h1 style="color: antiquewhite;">X-Shield <br> Test Enviroinment</h1></center>
 <div id="container">
 	<video autoplay="true" id="videoElement">
 	
 	</video>
 </div>
+<script type="text/python">
+from browser import document
+
+
+</script>
 <script>
     var video = document.querySelector("#videoElement");
 
