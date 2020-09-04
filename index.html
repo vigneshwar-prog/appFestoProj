@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -146,13 +149,14 @@ input[type="radio"] {
 			-->
 			</div>
 			<div class="card-body">
-				<form>
+				<form method="POST" action="login.php">
 					<div class="input-group form-group">
-						<input type="radio">
-						<label class="input-group-text">Student   </label>
-						<input type="radio">
-						<label class="input-group-text">Organization</label>
 						
+						<input class="input-group-text" type="radio" id="huey" name="drone" value="huey"
+						checked>
+						 <label class="input-group-text" for="huey">Student</label>
+						 <input class="input-group-text" type="radio" id="dewey" name="drone" value="dewey">
+  						<label class="input-group-text" for="dewey">Organization</label>
 						
 					</div>
 					<div class="input-group form-group">
